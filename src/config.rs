@@ -98,11 +98,11 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["tjy.nisj.top"];//rs-ny.rustdesk.com
-pub const RS_PUB_KEY: &str = "w1EKSdl2JPvAzsfqKaXGtVPKHGMK7v0Va31b4tFD2MQ=";// "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["tjy.jf23.top"];//rs-ny.rustdesk.com
+pub const RS_PUB_KEY: &str = "OGLIqyhNp6BBet0fuw+wqTE8duAF1h5VPF+M7C6DQYE=";// "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
 
-pub const RENDEZVOUS_PORT: i32 = 21116;
-pub const RELAY_PORT: i32 = 21117;
+pub const RENDEZVOUS_PORT: i32 = 22116;
+pub const RELAY_PORT: i32 = 22117;
 
 macro_rules! serde_field_string {
     ($default_func:ident, $de_func:ident, $default_expr:expr) => {
