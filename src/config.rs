@@ -99,7 +99,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["156.251.17.109"];//rs-ny.rustdesk.com
-pub const RS_PUB_KEY: &str = "a1rfsUJroLvFDXd9VetH0kAPrDGbpKh946uQpxZuuNQ=";// "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
+pub const RS_PUB_KEY: &str = "HHezeZfbgfVC0Ghd3UNKaYYlfKpbX4abik1S3AE+i3I=";// "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
