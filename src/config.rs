@@ -99,7 +99,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["tjy.cbbqq12.top"];//rs-ny.rustdesk.com
-pub const RS_PUB_KEY: &str = "Iwg37ldcldlwoDkzncjlLnvGcBYWUsAmkzpfdhqrsgo=";// "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
+pub const RS_PUB_KEY: &str = "w1EKSdl2JPvAzsfqKaXGtVPKHGMK7v0Va31b4tFD2MQ=";// "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
