@@ -98,8 +98,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["156.251.18.219"];//rs-ny.rustdesk.com
-pub const RS_PUB_KEY: &str = "JtIXpbo0AhVv99TYfevMflMiqsC62IB2SnqjPsDBjvs=";// "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["156.251.19.37"];//rs-ny.rustdesk.com
+pub const RS_PUB_KEY: &str = "ezwVAych8oQHXGw1U6t5fb23iPloEotje50seasKSLY=";// "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
