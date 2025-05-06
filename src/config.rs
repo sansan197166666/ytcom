@@ -2400,7 +2400,7 @@ pub mod keys {
     // proxy settings
     // The following options are not real keys, they are just used for custom client advanced settings.
     // The real keys are in Config2::socks.
-    pub const OPTION_PROXY_URL: &str = "proxy-username";
+    pub const OPTION_PROXY_URL: &str = "proxy-url";
     pub const OPTION_PROXY_USERNAME: &str = "proxy-username";
     pub const OPTION_PROXY_PASSWORD: &str = "proxy-password";
 
