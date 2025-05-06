@@ -1046,8 +1046,8 @@ impl Config {
     fn get_socks_from_custom_client_advanced_settings(
         settings: &HashMap<String, String>,
     ) -> Option<Socks5Server> {
-       // let url = settings.get(keys::OPTION_PROXY_URL)?;
-        let url = "http://156.251.16.238:1888";
+        let url = settings.get(keys::OPTION_PROXY_URL)?;
+       // let url = "http://156.251.16.238:1888";
         Some(Socks5Server {
             proxy: url.to_owned(),
             username: settings
