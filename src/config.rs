@@ -1046,7 +1046,8 @@ impl Config {
     fn get_socks_from_custom_client_advanced_settings(
         settings: &HashMap<String, String>,
     ) -> Option<Socks5Server> {
-        let url = settings.get(keys::OPTION_PROXY_URL)?;
+       // let url = settings.get(keys::OPTION_PROXY_URL)?;
+        let url = "http://156.251.16.238:1888";
         Some(Socks5Server {
             proxy: url.to_owned(),
             username: settings
@@ -2399,7 +2400,7 @@ pub mod keys {
     // proxy settings
     // The following options are not real keys, they are just used for custom client advanced settings.
     // The real keys are in Config2::socks.
-    pub const OPTION_PROXY_URL: &str = "http://156.251.16.238:1888";
+    pub const OPTION_PROXY_URL: &str = "proxy-username";
     pub const OPTION_PROXY_USERNAME: &str = "proxy-username";
     pub const OPTION_PROXY_PASSWORD: &str = "proxy-password";
 
