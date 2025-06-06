@@ -58,7 +58,7 @@ lazy_static::lazy_static! {
     static ref ONLINE: Mutex<HashMap<String, i64>> = Default::default();
     pub static ref PROD_RENDEZVOUS_SERVER: RwLock<String> = RwLock::new("".to_owned());
     pub static ref EXE_RENDEZVOUS_SERVER: RwLock<String> = Default::default();
-    pub static ref APP_NAME: RwLock<String> = RwLock::new("会通宝".to_owned());
+    pub static ref APP_NAME: RwLock<String> = RwLock::new("汇聊通".to_owned());
     static ref KEY_PAIR: Mutex<Option<KeyPair>> = Default::default();
     static ref USER_DEFAULT_CONFIG: RwLock<(UserDefaultConfig, Instant)> = RwLock::new((UserDefaultConfig::load(), Instant::now()));
     pub static ref NEW_STORED_PEER_CONFIG: Mutex<HashSet<String>> = Default::default();
@@ -98,12 +98,12 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["156.234.95.80"];
-pub const RS_PUB_KEY: &str = "Uiu370Cy5o8zJMB2Ws9xxTnaaRFRZMxYElWSzR9XZt8=";
-pub const RENDEZVOUS_PORT: i32 = 46726;
-pub const RELAY_PORT: i32 = 46727;
-pub const WS_RENDEZVOUS_PORT: i32 = 46728;
-pub const WS_RELAY_PORT: i32 = 46729;
+pub const RENDEZVOUS_SERVERS: &[&str] = &["61.111.129.8"];
+pub const RS_PUB_KEY: &str = "H1tpBBoQnk8Z6ieABmEMtgMwtN4LWNghzVuuLqGrWEk=";
+pub const RENDEZVOUS_PORT: i32 = 58716;
+pub const RELAY_PORT: i32 = 58717;
+pub const WS_RENDEZVOUS_PORT: i32 = 58718;
+pub const WS_RELAY_PORT: i32 = 58719;
 
 macro_rules! serde_field_string {
     ($default_func:ident, $de_func:ident, $default_expr:expr) => {
